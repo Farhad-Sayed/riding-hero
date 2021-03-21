@@ -9,14 +9,14 @@ Website Link: https://riding-hero.web.app
 ### Data Provider
 Data is retrieved from JSON file and made by own.
 
-### Api used
-Api: https://www.thesportsdb.com/api/v1/json/1/all_leagues.php
-
-### Image Link
+### Image Link From
 Link Picture.
 
 ### Static Image
 Programming Hero Github.
+
+### Authentication
+Firebase.
 
 ### Deployment
 Depoloy is being done by Firebase.
