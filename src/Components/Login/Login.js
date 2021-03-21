@@ -5,6 +5,7 @@ import firebaseConfig from "../../firebase.config";
 import { UserContext } from "../../App";
 import { useHistory, useLocation } from "react-router";
 import "./Login.css";
+import googleIcon from '../../Assets/icons8-google-50.png';
 
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
@@ -185,7 +186,9 @@ const Login = () => {
           )}
         </div>
         <p style={{textAlign:'center', marginBottom:'1rem'}}>or</p>
-        <button className="google" onClick={handleGoogleSignIn}>Continue With Google</button>
+        <button className="google" onClick={handleGoogleSignIn}>
+          <img style={{height:'25px', marginLeft:'30px', marginRight:'100px'}} src={googleIcon} alt=""/> 
+          Continue With Google</button>
       </div>
     </div>
   );

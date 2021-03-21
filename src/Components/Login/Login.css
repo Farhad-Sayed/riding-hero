@@ -49,6 +49,7 @@ h1, p, button, input{
     border-radius: 25px;
     background-color: transparent;
     cursor: pointer;
+    display: flex;
 }
 
 /* Responsivenes css starts */

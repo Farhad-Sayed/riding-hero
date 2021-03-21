@@ -15,6 +15,8 @@
 .search-area{
     flex: 30%;
     background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
 }
 
 .search-area input{
@@ -45,6 +47,7 @@
     color: #fff;
     padding: 15px;
     margin-top: 1rem;
+    cursor: pointer;
 }
 
 .map-area{
