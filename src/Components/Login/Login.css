@@ -1,0 +1,82 @@
+main{
+    width: 100%;
+}
+
+.signInArea{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.signIn{
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 4rem;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+h1, p, button, input{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.signIn h1{
+    margin-top: 1rem;
+}
+
+.input-field{
+    width: 500px;
+    padding: 20px 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid lightblue;
+    background-color: transparent;
+}
+
+.submit-btn{
+    width: 500px;
+    padding: 15px 0;
+    margin-top: 2rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: tomato;
+    border: none;
+}
+
+.google{
+    width: 500px;
+    padding: 13px 0;
+    border-radius: 25px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Responsivenes css starts */
+@media only screen and (max-width: 1850px) {
+    .signInArea{
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .input-field, .submit-btn, .google{
+        width: 450px;
+        margin-right: 0;
+    }
+} 
+
+@media only screen and (max-width: 1500px) {
+    .signInArea{
+        width: 550px;
+    }
+} 
+
+@media only screen and (max-width: 600px) {
+    .signInArea{
+        width: 450px;
+    }
+
+    .input-field, .submit-btn, .google{
+        width: 300px;
+        margin-right: 0;
+    }
+} 

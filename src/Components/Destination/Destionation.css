@@ -1,0 +1,71 @@
+.destionation{
+    width: 100%;
+}
+
+.destination-container{
+    width: 80%;
+    height: 500px;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.search-area{
+    flex: 30%;
+    background-color: lightgray;
+}
+
+.search-area input{
+    width: 300px;
+    border: none;
+    padding: 15px 0;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-right: 0;
+}
+
+.search-area input::placeholder{
+    padding-left: 10px;
+}
+
+.search-area h4{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.search-area button{
+    width: 300px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: lightsalmon;
+    color: #fff;
+    padding: 15px;
+    margin-top: 1rem;
+}
+
+.map-area{
+    flex: 70%;
+}
+
+.map-area img{
+    margin-left: 5rem;
+}
+
+/* Responsivenes css starts */
+@media only screen and (max-width: 1100px) {
+    .destination-container{
+        display: block;
+    }
+    .search-area{
+        width: 300px;
+        margin-left: 2rem;
+    }
+    .search-area input, .search-area button{
+        width: 200px;
+    }
+
+} 

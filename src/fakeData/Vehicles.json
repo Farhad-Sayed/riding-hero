@@ -1,0 +1,34 @@
+[
+    {
+        "id": "001",
+        "vehicle_name": "Bike",
+        "kilo_charge": "$30",
+        "image": "https://linkpicture.com/q/Frame_4.png",
+        "human": "https://www.linkpicture.com/q/peopleicon.png",
+        "capacity": "1"
+    },  
+    {
+        "id": "002",
+        "vehicle_name": "Bus",
+        "kilo_charge": "$50",
+        "image": "https://linkpicture.com/q/Frame-1_3.png",
+        "human": "https://www.linkpicture.com/q/peopleicon.png",
+        "capacity": "26"
+    },
+    {
+        "id": "003",
+        "vehicle_name": "Car",
+        "kilo_charge": "$70",
+        "image": "https://linkpicture.com/q/Frame-2_1.png",
+        "human": "https://www.linkpicture.com/q/peopleicon.png",
+        "capacity": "4"
+    },
+    {
+        "id": "004",
+        "vehicle_name": "Train",
+        "kilo_charge": "$45",
+        "image": "https://www.linkpicture.com/q/Group_1.png",
+        "human": "https://www.linkpicture.com/q/peopleicon.png",
+        "capacity": "20"
+    }
+]
